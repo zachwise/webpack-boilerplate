@@ -1,7 +1,7 @@
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter.ttf');
-}
+@import "Mixin";
+@import "Variables";
 
-@import 'variables';
-@import 'scaffolding';
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter.ttf');
+}

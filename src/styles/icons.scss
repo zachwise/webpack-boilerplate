@@ -1,0 +1,111 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?akgid9') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?akgid9') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?akgid9##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-applepodcasts {
+  &:before {
+    content: $icon-applepodcasts;     
+    color: #93c;
+  }
+}
+.icon-discord {
+  &:before {
+    content: $icon-discord;     
+    color: #7289da;
+  }
+}
+.icon-instagram {
+  &:before {
+    content: $icon-instagram;     
+    color: #e4405f;
+  }
+}
+.icon-playstation {
+  &:before {
+    content: $icon-playstation;     
+    color: #003791;
+  }
+}
+.icon-rss {
+  &:before {
+    content: $icon-rss;     
+    color: #ffa500;
+  }
+}
+.icon-skype {
+  &:before {
+    content: $icon-skype;     
+    color: #00aff0;
+  }
+}
+.icon-slack {
+  &:before {
+    content: $icon-slack;     
+    color: #4a154b;
+  }
+}
+.icon-spotify {
+  &:before {
+    content: $icon-spotify;     
+    color: #1ed760;
+  }
+}
+.icon-steam {
+  &:before {
+    content: $icon-steam; 
+  }
+}
+.icon-tiktok {
+  &:before {
+    content: $icon-tiktok; 
+  }
+}
+.icon-twitch {
+  &:before {
+    content: $icon-twitch;     
+    color: #6441a4;
+  }
+}
+.icon-twitter {
+  &:before {
+    content: $icon-twitter;     
+    color: #1da1f2;
+  }
+}
+.icon-xbox {
+  &:before {
+    content: $icon-xbox;     
+    color: #107c10;
+  }
+}
+.icon-youtube {
+  &:before {
+    content: $icon-youtube;     
+    color: #f00;
+  }
+}
+
